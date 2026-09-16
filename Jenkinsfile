@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: '
+                git branch: 'main', url:' https://github.com/ganeshkumars2024-ai/labpratice.git'
             }
         }
         stage('Generate Report') {
