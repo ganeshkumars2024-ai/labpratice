@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com'
+                git branch: 'main', url: 'https://github.com/ganeshkumars2024-ai/labpratice.git'
             }
         }
         stage('Show Parameter') {
